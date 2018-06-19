@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MainLogic">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>MainLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemContent.cpp">
+      <Filter>MainLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInventory.cpp">
+      <Filter>MainLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>MainLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="UserContent.cpp">
+      <Filter>MainLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPlayer.cpp">
+      <Filter>MainLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentDictionary.cpp">
+      <Filter>MainLogic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IContentBase.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemContent.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSingleton.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInventory.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleDefine.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentDictionary.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="IInfluenceActor.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="UserContent.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPlayer.h">
+      <Filter>MainLogic</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
