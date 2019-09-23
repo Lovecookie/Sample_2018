@@ -7,7 +7,7 @@ namespace Sample
 {
     class Item;
     class UserInventory;
-    class UserPlayer;
+    class GameUser;
     __interface IContentBase;
 
     //  {{CONSTANT}}
@@ -36,7 +36,7 @@ namespace Sample
 
     using ItemMap = std::unordered_map<TableIndex, Item*>;
     using InventoryMap = std::unordered_map<UserIndex, UserInventory*>;
-    using UserPlayerMap = std::unordered_map<UserIndex, UserPlayer*>;
+    using UserPlayerMap = std::unordered_map<UserIndex, GameUser*>;
     using ContentMap = std::unordered_map<ContentType, IContentBase*>;
     //  {{TYPE DEFINE}}
 

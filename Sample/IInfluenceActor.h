@@ -7,7 +7,7 @@ namespace Sample
     class Item;
     __interface IInfluenceItemActor
     {
-        CommonResult BuffInfluence( const Item* pItem );
-        CommonResult CoinInfluence( const Item* pItem );
+        CommonResult UseBuffItem( const Item* pItem );
+        CommonResult UseCoinItem( const Item* pItem );
     };
 }

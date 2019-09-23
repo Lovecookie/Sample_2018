@@ -19,7 +19,7 @@ namespace Sample
 
     CommonResult ItemCoin::Use( IInfluenceItemActor* pActor )
     {
-        return pActor->CoinInfluence( this );        
+        return pActor->UseCoinItem( this );
     }
 
     //  Item Buff
@@ -30,7 +30,7 @@ namespace Sample
 
     CommonResult ItemBuff::Use( IInfluenceItemActor* pActor )
     {
-        return pActor->BuffInfluence( this );
+        return pActor->UseCoinItem( this );
     }
 
 

@@ -21,32 +21,32 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{48D123F3-418E-40DE-8921-EDEE2F97CB33}</ProjectGuid>
     <RootNamespace>Sample</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -114,9 +114,9 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="ItemContent.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="UserContent.cpp" />
+    <ClCompile Include="GameUserContent.cpp" />
     <ClCompile Include="UserInventory.cpp" />
-    <ClCompile Include="UserPlayer.cpp" />
+    <ClCompile Include="GameUser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ContentDictionary.h" />
@@ -125,10 +125,10 @@
     <ClInclude Include="Item.h" />
     <ClInclude Include="ItemContent.h" />
     <ClInclude Include="SampleDefine.h" />
-    <ClInclude Include="UserContent.h" />
+    <ClInclude Include="GameUserContent.h" />
     <ClInclude Include="UserInventory.h" />
     <ClInclude Include="SimpleSingleton.h" />
-    <ClInclude Include="UserPlayer.h" />
+    <ClInclude Include="GameUser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

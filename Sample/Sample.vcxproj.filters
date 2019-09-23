@@ -19,13 +19,13 @@
     <ClCompile Include="Item.cpp">
       <Filter>MainLogic</Filter>
     </ClCompile>
-    <ClCompile Include="UserContent.cpp">
-      <Filter>MainLogic</Filter>
-    </ClCompile>
-    <ClCompile Include="UserPlayer.cpp">
-      <Filter>MainLogic</Filter>
-    </ClCompile>
     <ClCompile Include="ContentDictionary.cpp">
+      <Filter>MainLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUser.cpp">
+      <Filter>MainLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUserContent.cpp">
       <Filter>MainLogic</Filter>
     </ClCompile>
   </ItemGroup>
@@ -54,10 +54,10 @@
     <ClInclude Include="IInfluenceActor.h">
       <Filter>MainLogic</Filter>
     </ClInclude>
-    <ClInclude Include="UserContent.h">
+    <ClInclude Include="GameUser.h">
       <Filter>MainLogic</Filter>
     </ClInclude>
-    <ClInclude Include="UserPlayer.h">
+    <ClInclude Include="GameUserContent.h">
       <Filter>MainLogic</Filter>
     </ClInclude>
   </ItemGroup>

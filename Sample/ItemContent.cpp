@@ -1,8 +1,8 @@
 ﻿#include "ItemContent.h"
 #include "UserInventory.h"
 #include "Item.h"
-#include "UserContent.h"
-#include "UserPlayer.h"
+#include "GameUserContent.h"
+#include "GameUser.h"
 
 
 namespace Sample
@@ -24,8 +24,8 @@ namespace Sample
 
     void ItemContent::Finalize()
     {   
-        for( auto inventory : _userInventorys )
-        {
+		for (auto inventory : _userInventorys)
+		{
             SafeDelete( inventory.second );
         }
     }
@@ -61,7 +61,7 @@ namespace Sample
             return CommonResult::InvalidUserIndex;
         }
 
-        const auto pUserPlayer = UserContent::Instance()->FindUserPlayer( userIndex );
+        const auto pUserPlayer = GameUserContent::Instance()->FindUserPlayer( userIndex );
         if( nullptr == pUserPlayer )
         {
             return CommonResult::InvalidUserIndex;

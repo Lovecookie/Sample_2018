@@ -5,8 +5,7 @@
 
 namespace Sample
 {
-    class UserPlayer;
-    //using UseFunctor = std::function<CommonResult( IInfluenceItemActor* )>;
+    class UserPlayer;    
 
     class Item abstract
     {
